@@ -41,4 +41,5 @@ steps:
     command: push
     feedPublish: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Modelss'
     allowPackageConflicts: true
+    nugetConfigPath: 'nuget.config'
   condition: succeeded()
