@@ -40,5 +40,5 @@ steps:
   inputs:
     command: push
     feedPublish: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Modelss'
-    allowPackageConflicts: true
+    allowPackageConflicts: false
   condition: succeeded()
